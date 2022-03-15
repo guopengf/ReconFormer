@@ -76,7 +76,7 @@ tensorboard --logdir 'Dir path for saving checkpoints'
 ```bash 
 bash run_recon_eval.sh
 ```
-# Ackonwledgements
+## Ackonwledgements
 
 We give acknowledgements to [fastMRI](https://github.com/facebookresearch/fastMRI), [Swin-Transformer
 ](https://github.com/microsoft/Swin-Transformer), and [SwinIR](https://github.com/JingyunLiang/SwinIR).
