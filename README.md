@@ -59,7 +59,7 @@ git clone git@github.com:guopengf/ReconFormer.git
 
 ## set up conda environment
 ```bash
-cd FL-MRCM
+cd ReconFormer
 conda env create -f conda_environment.yml
 conda activate recon
 ```
