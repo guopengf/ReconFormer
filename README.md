@@ -11,7 +11,7 @@ Pytorch Code for the paper ["ReconFormer: Accelerated MRI Reconstruction Using R
 # Requirements
 
 python=3.6  
-1.4.0<=pytorch<=1.7.0
+pytorch=1.7.0
 
 Please refer conda_environment.yml for more dependencies.
 
@@ -52,27 +52,27 @@ Password: pguo4@jhu.edu\
 
 # Run
 
-## clone this repo
+## Clone this repo
 ```bash 
 git clone git@github.com:guopengf/ReconFormer.git
 ```
 
-## set up conda environment
+## Set up conda environment
 ```bash
 cd ReconFormer
 conda env create -f conda_environment.yml
 conda activate recon
 ```
-## train ReconFormer
+## Train ReconFormer
 ```bash 
 bash run_recon_exp.sh
 ```
 
-## monitor the traning process
+## Monitor the traning process
 ```bash 
 tensorboard --logdir 'Dir path for saving checkpoints'
 ```
-## test
+## Test (Download [pre-trained weights](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/pguo4_jh_edu/Er37oIyNy3NBrXbeCQBp_fQBAxELR8UDaq6gHd-fjwRrSw))
 ```bash 
 bash run_recon_eval.sh
 ```
