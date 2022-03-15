@@ -53,8 +53,9 @@ Password: pguo4@jhu.edu\
 # Run
 
 ## clone this repo
-
+```bash 
 git clone git@github.com:guopengf/ReconFormer.git
+```
 
 ## set up conda environment
 ```bash
