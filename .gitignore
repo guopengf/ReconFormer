@@ -1,10 +1,9 @@
 #
 *~
+*.idea
+*__pycache__
 
 *.DS_Store
-cache/
-results/
-checkpoints/
 
 # luarocks build files
 *.src.rock
