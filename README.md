@@ -44,7 +44,7 @@ Dataset Folder-----|      |--train--|...
 ## Links for downloading the public datasets:
 
 1) fastMRI Dataset - <a href="https://fastmri.med.nyu.edu/"> Link </a>
-2) HPKS Dataset - We don't obtain the permission from Johns Hopkins Hospital to release this dataset. This dataset is available upon request which will be evaluated on a case-by-case basis.
+2) HPKS Dataset - We don't obtain the permission from Johns Hopkins Hospital to release this dataset.
 
 Preprocessed fastMRI (OneDrive) - <a href="https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/pguo4_jh_edu/EtXsMeyrJB1Pn-JOjM_UqhUBdY1KPrvs-PwF2fW7gERKIA?e=uuBINy"> Link </a>\
 Password: pguo4@jhu.edu\
