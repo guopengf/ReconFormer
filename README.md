@@ -46,8 +46,8 @@ Dataset Folder-----|      |--train--|...
 1) fastMRI Dataset - <a href="https://fastmri.med.nyu.edu/"> Link </a>
 2) HPKS Dataset - We don't obtain the permission from Johns Hopkins Hospital to release this dataset.
 
-Preprocessed fastMRI (OneDrive) - <a href="https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/pguo4_jh_edu/EtXsMeyrJB1Pn-JOjM_UqhUBdY1KPrvs-PwF2fW7gERKIA?e=uuBINy"> Link </a>\
-Password: pguo4@jhu.edu\
+Preprocessed fastMRI (OneDrive) - <a href="https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/pguo4_jh_edu/EtXsMeyrJB1Pn-JOjM_UqhUB9-QAehQs4cLwomJS2SkpGA?e=IUfPrp"> Link </a>\
+Password: pguo4\
 **Note:** In preprocessed fastMRI, We didn't modify the original fastMRI data and just make the format compatible with our DataLoader. 
 
 # Run
