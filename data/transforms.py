@@ -70,6 +70,41 @@ def apply_mask(data, mask_func, seed=None):
     return data * mask, mask
 
 
+def fft2c(x, dim=(-2, -1)):
+    """ Centered 2D Fast Fourier Transform 
+    
+    Args:
+        x (torch.Tensor): Complex valued input data containing at least 3
+            dimensions: dimensions -2 & -1 are spatial dimensions. All other 
+            dimensions are assumed to be batch dimensions.
+
+        dim (tuple): Dimensions to apply the FFT along. Default is (-2, -1)
+
+    Returns:
+        torch.Tensor: The FFT of the input.
+    """
+    x = torch.fft.ifftshift(x, dim=dim)
+    x = torch.fft.fft2(x, dim=dim)
+    return torch.fft.fftshift(x, dim=dim)
+
+
+def ifft2c(x, dim=(-2, -1)):
+    """ Centered 2D Inverse Fast Fourier Transform
+
+    Args:
+        x (torch.Tensor): Complex valued input data containing at least 3
+            dimensions: dimensions -2 & -1 are spatial dimensions. All other 
+            dimensions are assumed to be batch dimensions.
+        dim (tuple): Dimensions to apply the IFFT along. Default is (-2, -1)
+
+    Returns:
+        torch.Tensor: The IFFT of the input.
+    """
+    x = torch.fft.ifftshift(x, dim=dim)
+    x = torch.fft.ifft2(x, dim=dim)
+    return torch.fft.fftshift(x, dim=dim)
+
+
 def fft2(data, normalized=True):
     """
     Apply centered 2 dimensional Fast Fourier Transform.
